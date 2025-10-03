@@ -1,0 +1,6 @@
+services:
+  replicate:
+    env_file:
+      - .env
+    build:
+      dockerfile: replicate.Containerfile

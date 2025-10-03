@@ -1,0 +1,1 @@
+0 5 * * * rclone sync restic_s1:/server1 restic_s2:/server1

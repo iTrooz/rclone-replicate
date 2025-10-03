@@ -1,0 +1,15 @@
+[restic_s1]
+type = s3
+provider = Minio
+access_key_id = $MINIO_REPLICATION_USER
+secret_access_key = $MINIO_REPLICATION_PASSWORD
+endpoint = https://s3.example.com
+region = us-east-1
+
+[restic_s2]
+type = s3
+provider = Minio
+access_key_id = $MINIO_REPLICATION_USER
+secret_access_key = $MINIO_REPLICATION_PASSWORD
+endpoint = https://s3-2.example.com
+region = us-east-1
