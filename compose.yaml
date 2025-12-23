@@ -1,6 +1,7 @@
 services:
   replicate:
     container_name: backup-replicate
+    restart: unless-stopped
     env_file:
       - .env
     build:
