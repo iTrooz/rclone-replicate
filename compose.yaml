@@ -1,6 +1,6 @@
 services:
   replicate:
-    container_name: backup-external-replicate
+    container_name: backup-replicate
     env_file:
       - .env
     build:
